@@ -3,4 +3,12 @@ $primary-color: #444;
 
 body {
     background: $primary-color;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
