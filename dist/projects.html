@@ -3,7 +3,133 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- linking local css file -->
+    <link rel="stylesheet" href="../dist/css/main.css" />
+    <script src="js/main.js" defer></script>
     <title>My Projects</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <div class="menu-btn">
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+      </div>
+      <!-- Nav bar -->
+      <nav class="menu">
+        <!-- for user's portrait -->
+        <div class="menu-branding">
+          <div class="portrait"></div>
+        </div>
+        <!-- for nav menu items -->
+        <ul class="menu-nav">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">About Me</a>
+          </li>
+          <li class="nav-item current">
+            <a href="projects.html" class="nav-link">My Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">How to Reach me</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="work">
+      <h1 class="lg-heading">My<span class="text-secondary">Projects</span></h1>
+      <h2 class="sm-heading">Checkout my Projects...</h2>
+      <!-- Projects -->
+      <div class="projects">
+        <div class="item">
+          <a href="#!">
+            <img src="img/project_img/project_1.png" alt="project 1" />
+          </a>
+          <a
+            href="https://react-e-commerce-kappa.vercel.app/"
+            class="btn-light"
+          >
+            <i class="fa-solid fa-eye">Preview</i>
+          </a>
+          <a
+            href="https://github.com/yashcrest/React-E-Commerce"
+            class="btn-dark"
+          >
+            <i class="fa-brands fa-github">GitHub</i>
+          </a>
+        </div>
+        <div class="item">
+          <a href="#!">
+            <img src="img/project_img/project_2.png" alt="project 2" />
+          </a>
+          <a
+            href="https://react-api-project-opal.vercel.app/"
+            class="btn-light"
+          >
+            <i class="fa-solid fa-eye">Preview</i>
+          </a>
+          <a
+            href="https://github.com/yashcrest/React-Movie-Finder"
+            class="btn-dark"
+          >
+            <i class="fa-brands fa-github">GitHub</i>
+          </a>
+        </div>
+        <div class="item">
+          <a href="#!">
+            <img src="img/project_img/project_3.png" alt="project 1" />
+          </a>
+          <a href="https://quiz-github-io-henna.vercel.app/" class="btn-light">
+            <i class="fa-solid fa-eye">Preview</i>
+          </a>
+          <a
+            href="https://github.com/yashcrest/JavaScript-Quiz-App"
+            class="btn-dark"
+          >
+            <i class="fa-brands fa-github">GitHub</i>
+          </a>
+        </div>
+        <div class="item">
+          <a href="#!">
+            <img src="img/project_img/project_4.png" alt="project 1" />
+          </a>
+          <a href="https://github.com/yashcrest/weather_app" class="btn-light">
+            <i class="fa-solid fa-eye">Preview</i>
+          </a>
+          <a href="https://github.com/yashcrest/weather_app" class="btn-dark">
+            <i class="fa-brands fa-github">GitHub</i>
+          </a>
+        </div>
+        <div class="item">
+          <a href="#!">
+            <img src="img/project_img/project_5.png" alt="project 1" />
+          </a>
+          <a
+            href="https://github.com/yashcrest/react-task-tracker"
+            class="btn-light"
+          >
+            <i class="fa-solid fa-eye">Preview</i>
+          </a>
+          <a
+            href="https://github.com/yashcrest/react-task-tracker"
+            class="btn-dark"
+          >
+            <i class="fa-brands fa-github">GitHub</i>
+          </a>
+        </div>
+      </div>
+    </main>
+    <footer id="main-footer">Copyright &copy; Yash Shrestha | 2023</footer>
+  </body>
 </html>
