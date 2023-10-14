@@ -9,7 +9,7 @@
     width: 28px;
     height: 3px;
     margin: 0 0 5px 0;
-    background: white;
+    background: #fff;
     transition: all 0.7s ease-out; }
   .menu-btn.close {
     transform: rotate(180deg); }
@@ -74,7 +74,7 @@
     text-transform: uppercase;
     padding: 1rem 0;
     font-weight: 300;
-    color: white;
+    color: #fff;
     transition: all 0.7s ease-out; }
     .menu .nav-link:hover {
       color: #ffc107; }
@@ -127,7 +127,7 @@
 
 body {
   background: #444;
-  color: white;
+  color: #fff;
   height: 100%;
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -188,3 +188,27 @@ main {
       main .icons a:hover {
         color: #ffc107;
         transition: all 0.7s ease-out; }
+
+.about-info {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-areas: "bioimage bio bio" "job1 job2 job3";
+  grid-template-columns: repeat(3, 1fr); }
+  .about-info .bio-image {
+    grid-area: bioimage;
+    margin: auto;
+    border-radius: 50%;
+    border: #ffc107 4px solid; }
+  .about-info .bio {
+    grid-area: bio;
+    font-size: 1.5rem; }
+  .about-info .job-1 {
+    grid-area: job1; }
+  .about-info .job-2 {
+    grid-area: job1; }
+  .about-info .job-3 {
+    grid-area: job1; }
+  .about-info .job {
+    background: #515151;
+    padding: 0.5rem;
+    border-bottom: #ffc107 5px solid; }
